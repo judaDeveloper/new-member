@@ -170,6 +170,7 @@ header .row img {
   z-index: 901;
   display: grid;
   min-width: 320px;
+  padding: 0 10px;
   position: absolute;
   background-color: #000000c2;
 }
@@ -194,8 +195,8 @@ header .row img {
   border-radius: 5px 5px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("https://judadeveloper.github.io/registration/banner.png");
-  background-color: #d2e6ff;
+  /*background-image: url("https://judadeveloper.github.io/registration/banner.png");*/
+  background-color: #f1f1f1;
 }
 
 #clientform {
@@ -204,7 +205,7 @@ header .row img {
   margin: 0px auto;
   position: relative;
   padding-bottom: 10px;
-  background-color: #00000013;
+  background-color: #f1f1f1;
 }
 #clientform.new {
   display: block;
@@ -299,9 +300,9 @@ header .row img {
 .fmSubmit #btnsubmt {
   width: 120px;
   font-size: 16px;
-  color: #0a89ff;
+  color: #ffffff;
   font-weight: 500;
-  background-color: #ffffffe1;
+  background-color: #0a89ff;
 }
 
 .fmSubmit #btnsubmt:hover,
@@ -329,11 +330,11 @@ header .row img {
 .inputs h6 {
   font-size: 13px;
   font-weight: 600;
-  color: #ffffff;
+  color: #0a89ff;
   padding: 1px 5px;
   width: fit-content;
   border-radius: 2px;
-  background-color: #0586ff;
+  background-color: #ffffff00;
 }
 .inputs h4 {
   margin: 0 auto;
@@ -447,7 +448,7 @@ header .row img {
   column-gap: 5%;
   position: relative;
   border-radius: 5px 5px;
-  border: 1px solid #559cff6e;
+  border: 1px solid #93a9c76e;
   background-color: #ffffffe5;
 }
 
